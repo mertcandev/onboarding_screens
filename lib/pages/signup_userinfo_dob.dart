@@ -20,6 +20,7 @@ class _UserInfoDOBScreenState extends State<UserInfoDOBScreen> {
   Widget build(BuildContext context) {
     ScreenUtil.init(context);
     return Scaffold(
+      backgroundColor: Colors.white,
         resizeToAvoidBottomInset: true,
         body: FooterLayout(
           child:

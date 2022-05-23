@@ -20,6 +20,7 @@ class _UserInfoGenderScreen3State extends State<UserInfoGenderScreen3> {
   Widget build(BuildContext context) {
     ScreenUtil.init(context);
     return Scaffold(
+      backgroundColor: Colors.white,
         resizeToAvoidBottomInset: true,
         body: FooterLayout(
           child:
